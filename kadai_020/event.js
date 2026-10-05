@@ -1,5 +1,7 @@
-const btn = document.getElementById('output-btn');
+const text = document.getElementById('text');
 
-btn.addEventListener('click', () => {
-  console.log('くりっくされました')
-})
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function(){
+  text.textContent = "ボタンをクリックしました"
+});
